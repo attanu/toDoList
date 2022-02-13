@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rowdies', cursive;
+    font-weight: normal;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(163, 214, 235);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main {
+    background-color: rgb(254, 254, 255);
+    margin: auto;
+    width: 323px;
+    height: 431px;
+    padding: 14px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: #656fcb 0px 2px 4px 1px;
+    border-radius: 9px;
+    overflow: hidden;
+    overflow-y : scroll;
+}
+
+.main h1 {
+    background-color: rgb(128 106 149);
+    width: 111%;
+    margin-left: -5%;
+    text-align: center;
+    text-transform: capitalize;
+    color: #fff;
+}
+
+.clear-all {
+    margin-left: 105px;
+    cursor: pointer;
+}
+
+.clear-all:hover {
+    color: rgb(243, 94, 94);
+}
+
+.main input {
+    border: none;
+    outline: none;
+    margin: 40px 5px 0px 3px;
+    font-size: 1rem;
+    width: 228px;
+    color: #806a95;
+}
+
+.add-btn {
+    height: 40px !important;
+    width: 40px !important;
+    border-radius: 50%;
+    background: white !important;
+    border: none;
+    outline: none;
+    box-shadow: none !important;
+    font-size: 2rem;
+    color: #806a95 !important;
+}
+
+.add-btn:hover {
+    background-color: #806a95 !important;
+    color: #f5f5f5 !important;
+}
+
+.add-btn:active {
+    background-color: rgb(56, 195, 56) !important;
+}
+
+.list-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+li {
+    color: #806a95;
+    margin: 19px 0px;
+    list-style: none;
+    min-width: 221px;
+    max-width: 221px;
+}
+
+.check-btn{
+    background-color: #806a95;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: none;
+    color: white !important;
+}
+
+.check-btn:hover {
+    background-color: rgb(243, 64, 64) !important  ;
+}
+
+.delete-btn {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: none;
+    color: #806a95;
+    margin-right: 8px;
+}
+
+.delete-btn:hover {
+    color: rgb(243, 64, 64) !important;
+}
